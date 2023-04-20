@@ -117,6 +117,95 @@
         <source src="./media/sound.mp3" type="audio/mpeg">
         Your browser does not support the audio element.
     </audio>
+    
+    <br>
+    <br>
+
+    
+    <!-- form , input , label -->
+    <form action="#" method="post">
+        <fieldset>
+            <legend>Fill up your Information</legend>
+            <label for="fname">First Name</label>
+            <input id="fname" type="text" placeholder="Enter Your First name" autofocus> <br><br>
+
+            <label for="lname">Last Name</label>
+            <input id="lname" type="text" placeholder="Enter Your Last name"> <br><br>
+            
+            <label for="email">Email Address</label>
+            <input id="email" type="email" placeholder="Enter Your Email address" required> <br><br>
+
+            <label for="number">Number</label>
+            <input id="number" type="number" placeholder="Enter Your Phone number" required> <br><br>
+
+            <!-- radio -->
+            <h3>Choose Your Gender : </h3>
+            <label for="male">Male</label>
+            <input type="radio" name="gender" id="male">
+            <label for="female">Female</label>
+            <input type="radio" name="gender" id="female">
+
+            <!-- checkbox -->
+            <h3>Choose Your Favorite Fruit : </h3>
+            <input type="checkbox" id="apple"> 
+            <label for="apple">Apple</label>
+
+            <input type="checkbox" id="orange"> 
+            <label for="orange">Orange</label>
+
+            <input type="checkbox" id="banana"> 
+            <label for="banana">Banana</label>
+
+            <h3>Choose Your Birth Date : </h3>
+            <input type="date">
+
+            <h3>Upload your image : </h3>
+            <input type="file">
+
+            <h3>Choose Your Favorite Color : </h3>
+            <input type="color"> <br> <br>
+
+            <textarea placeholder="write your message ..." cols="30" rows="8"></textarea> <br><br>
+            <input type="reset" value="Reset">
+            <input type="submit" value="Send">
+        </fieldset>
+    </form>
+
+    <br>
+    <br>
+
+    <!-- select option -->
+    <form action="#">
+        <label for="cars"><b>Choose a car :</b></label>
+        <select name="cars" id="cars">
+            <option value="volvo">Volvo</option>
+            <option value="saab">Saab</option>
+            <option value="opel">Opel</option>
+            <option value="audi">Audi</option>
+        </select>
+    </form>
+
+    <!-- optgroup -->
+    <form action="#">
+        <label for="clothes"><b>Choose your favorite Clothes :</b></label>
+        <select name="clothes" id="clothes">
+            <optgroup label="Male Collections">
+                <option value="Hoodie">Hoodie</option>
+                <option value="tshirt">tshirt</option>
+                <option value="caps">caps</option>
+                <option value="caps">Pants</option>
+
+            </optgroup>
+            <optgroup label="Female Collections">
+                <option value="Hoodie">Hoodie</option>
+                <option value="Shorts">Shorts</option>
+                <option value="tshirt">tshirt</option>
+                <option value="caps">caps</option>
+            </optgroup>
+        </select>
+        <br><br>
+        <input type="submit" value="Submit">
+      </form>
 </body>
 
 </html>
