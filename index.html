@@ -58,17 +58,15 @@
     </p>
 
     <!-- pre -->
-    <p>
-        <pre>
-            I was born with a
-            fragile heart
-            It's see-through
-            almost glass
-            Which is why you can see
-            Every emotion on my face
-            No matter what angle you look at me
-        </pre>
-    </p>
+    <pre>
+        I was born with a
+        fragile heart
+        It's see-through
+        almost glass
+        Which is why you can see
+        Every emotion on my face
+        No matter what angle you look at me
+    </pre>
 
     <!-- del -->
     <p>
@@ -84,13 +82,12 @@
     </p>
 
     <!-- address -->
-    <p>
-        <address>
-            Brac Alamdanga branch, Nowda, 70, Bondobil 7210 <br>
-            Alamdanga, Chuadanga.
-        </address>
-    </p>
+    <address>
+        Brac Alamdanga branch, Nowda, 70, Bondobil 7210 <br>
+        Alamdanga, Chuadanga.
+    </address>
 
+    <br><br>
     <!-- iframe show website -->
     <iframe src="https://www.daraz.com.bd/" width="100%" height="600"  frameborder="0"></iframe>
 
@@ -175,37 +172,160 @@
     <br>
 
     <!-- select option -->
-    <form action="#">
-        <label for="cars"><b>Choose a car :</b></label>
-        <select name="cars" id="cars">
-            <option value="volvo">Volvo</option>
-            <option value="saab">Saab</option>
-            <option value="opel">Opel</option>
-            <option value="audi">Audi</option>
-        </select>
-    </form>
+    <label for="cars"><b>Choose a car :</b></label>
+    <select name="cars" id="cars">
+        <option value="volvo">Volvo</option>
+        <option value="saab">Saab</option>
+        <option value="opel">Opel</option>
+        <option value="audi">Audi</option>
+    </select>    
+        
+
+
+    <br><br>
 
     <!-- optgroup -->
-    <form action="#">
-        <label for="clothes"><b>Choose your favorite Clothes :</b></label>
-        <select name="clothes" id="clothes">
-            <optgroup label="Male Collections">
-                <option value="Hoodie">Hoodie</option>
-                <option value="tshirt">tshirt</option>
-                <option value="caps">caps</option>
-                <option value="caps">Pants</option>
+    <label for="clothes"><b>Choose your favorite Clothes :</b></label>
+    <select name="clothes" id="clothes">
+        <optgroup label="Male Collections">
+            <option value="Hoodie">Hoodie</option>
+            <option value="tshirt">tshirt</option>
+            <option value="caps">caps</option>
+            <option value="caps">Pants</option>
 
-            </optgroup>
-            <optgroup label="Female Collections">
-                <option value="Hoodie">Hoodie</option>
-                <option value="Shorts">Shorts</option>
-                <option value="tshirt">tshirt</option>
-                <option value="caps">caps</option>
-            </optgroup>
-        </select>
-        <br><br>
-        <input type="submit" value="Submit">
-      </form>
+        </optgroup>
+        <optgroup label="Female Collections">
+            <option value="Hoodie">Hoodie</option>
+            <option value="Shorts">Shorts</option>
+            <option value="tshirt">tshirt</option>
+            <option value="caps">caps</option>
+        </optgroup>
+    </select>     
+    
+    <br><br>
+
+    <!-- datalist -->
+    <label for="browser"><b>Choose your browser from the list :</b></label>
+    <input list="browsers" name="browser" id="browser">
+
+    <datalist id="browsers">
+        <option value="Edge">
+        <option value="Firefox">
+        <option value="Chrome">
+        <option value="Opera">
+        <option value="Safari">
+    </datalist>
+
+    <!-- unordered list -->
+    <!-- type attribute value : disc, circle, square [don't use]--> 
+    <ul style="list-style-type:circle">
+        <li>Coffee</li>
+        <li>Tea</li>
+        <li>Milk</li>
+    </ul>
+      
+    <ul style="list-style-type:disc">
+        <li>Coffee</li>
+        <li>Tea</li>
+        <li>Milk</li>
+    </ul>
+      
+    <ul style="list-style-type:square">
+        <li>Coffee</li>
+        <li>Tea</li>
+        <li>Milk</li>
+    </ul>
+
+    <!-- ordered list -->
+    <!-- type attribute value : 1, A, a, I, i  [use css recommend]-->
+    <ol>
+        <li>Coffee</li>
+        <li>Tea</li>
+        <li>Milk</li>
+    </ol>
+      
+    <ol start="50">
+        <li>Coffee</li>
+        <li>Tea</li>
+        <li>Milk</li>
+    </ol>
+
+    <ol reversed>
+        <li>Coffee</li>
+        <li>Tea</li>
+        <li>Milk</li>
+    </ol>
+
+    <!-- ordered list using css property -->
+    <ol style="list-style-type:upper-roman">
+        <li>Coffee</li>
+        <li>Tea</li>
+        <li>Milk</li>
+        </ol>
+        
+        <ol style="list-style-type:lower-alpha">
+        <li>Coffee</li>
+        <li>Tea</li>
+        <li>Milk</li>
+    </ol>
+
+    <!-- dl>dt+dd -->
+    <dl>
+        <dt>Coffee</dt>
+        <dd>Black hot drink</dd>
+        <dt>Milk</dt>
+        <dd>White cold drink</dd>
+    </dl>
+
+    <!-- table -->
+    <table border="1">
+        <caption>Information Table</caption>
+        <tr>
+            <th>Name</th>
+            <th>Age</th>
+            <th>Address</th>
+            <th>Phone</th>
+        </tr>
+        <tr>
+            <td>Fuad</td>
+            <td>25</td>
+            <td>Dhaka</td>
+            <td>01794059375</td>
+        </tr>
+        <tr>
+            <td>Fuad</td>
+            <td>25</td>
+            <td>Dhaka</td>
+            <td>01794059375</td>
+        </tr>
+        <tr>
+            <td>Fuad</td>
+            <td>25</td>
+            <td>Dhaka</td>
+            <td>01794059375</td>
+        </tr>
+    </table>
+
+    <br><br>
+
+    <!-- details > summary -->
+    <details>
+        <summary>BUBT</summary>
+        <p>Bangladesh University of Business and Technology or BUBT is a private university in Bangladesh, located in Mirpur, Dhaka, Bangladesh. BUBT was founded in 2003 under the Private University Act 1992 and was approved by the University Grants Commission and the Ministry of Education, Government of Bangladesh.</p>
+    </details>
+
+    <!-- blockquote -->
+    <p>Here is a quote from BUBT's website :</p>
+
+    <blockquote cite="https://www.bubt.edu.bd/">
+        Bangladesh University of Business and Technology or BUBT is a private university in Bangladesh, located in Mirpur, Dhaka, Bangladesh. BUBT was founded in 2003 under the Private University Act 1992 and was approved by the University Grants Commission and the Ministry of Education, Government of Bangladesh.
+    </blockquote>
+
+    <!-- q -->
+    <p>
+        <q>The purpose of our lives is to be happy.</q>
+    </p>
+
 </body>
 
 </html>
