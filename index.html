@@ -58,6 +58,12 @@
         <img src="./images/bird.jpg" alt="bird-image">
     </p>
 
+    <!-- note: link with image ( a > img )     
+    <a href="#">
+        <img src="" alt="">
+    </a>
+    -->
+
     <!-- pre -->
     <pre>
         I was born with a
@@ -279,36 +285,93 @@
     </dl>
 
     <!-- table -->
-    <table border="1">
+    <table border="1" style="border-collapse: collapse;">
         <caption>Information Table</caption>
-        <tr>
-            <th>Name</th>
-            <th>Age</th>
-            <th>Address</th>
-            <th>Phone</th>
-        </tr>
-        <tr>
-            <td>Fuad</td>
-            <td>25</td>
-            <td>Dhaka</td>
-            <td>01794059375</td>
-        </tr>
-        <tr>
-            <td>Fuad</td>
-            <td>25</td>
-            <td>Dhaka</td>
-            <td>01794059375</td>
-        </tr>
-        <tr>
-            <td>Fuad</td>
-            <td>25</td>
-            <td>Dhaka</td>
-            <td>01794059375</td>
-        </tr>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Age</th>
+                <th>Address</th>
+                <th>Phone</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Fuad</td>
+                <td>25</td>
+                <td>Dhaka</td>
+                <td>01794059375</td>
+            </tr>
+            <tr>
+                <td>Fuad</td>
+                <td>25</td>
+                <td>Dhaka</td>
+                <td>01794059375</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td>Fuad</td>
+                <td>25</td>
+                <td>Dhaka</td>
+                <td>01794059375</td>
+            </tr>
+        </tfoot>
     </table>
 
     <br><br>
 
+    <!-- table colspan and rowspan -->
+    <table border="1" style="border-collapse: collapse;">
+        <caption>Cricket Club</caption>
+        <thead>
+            <tr>
+                <th rowspan="2">Serial No</th>
+                <th colspan="2">Name</th>
+                <th rowspan="2">Fees</th>
+                <th rowspan="2">Skill</th>
+            </tr>
+            <tr>
+                <th>First name</th>
+                <th>Last name</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Mostafizur</td>
+                <td>Rahman</td>
+                <td>10500</td>
+                <td>Batsman</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Mostafizur</td>
+                <td>Rahman</td>
+                <td>10500</td>
+                <td>Batsman</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Mostafizur</td>
+                <td>Rahman</td>
+                <td>10500</td>
+                <td>Batsman</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td>4</td>
+                <td>Mostafizur</td>
+                <td>Rahman</td>
+                <td>10500</td>
+                <td>Batsman</td>
+            </tr>
+        </tfoot>
+    </table>
+
+    <br><br>
+    
     <!-- details > summary -->
     <details>
         <summary>BUBT</summary>
@@ -333,7 +396,7 @@
         2. https://fontawesome.com/search  (search icon) 
     -->
 
-    <p style="font-size: 80px;">
+    <p style="font-size: 80px; color: blue;">
         <i class="fa-brands fa-facebook"></i>
         <i class="fa-brands fa-twitter"></i>
         <i class="fa-solid fa-user"></i>
